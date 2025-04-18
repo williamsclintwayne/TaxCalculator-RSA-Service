@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "TaxCalculatorAPI.Controllers.TaxCalculatorController",
+    "Method": "CalculateTax",
+    "RelativePath": "api/TaxCalculator/calculate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TaxCalculatorAPI.Services.Models.TaxCalculationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TaxCalculatorAPI.Services.Models.TaxCalculationResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TaxCalculatorAPI.Controllers.TaxCertificateController",
+    "Method": "GeneratePdf",
+    "RelativePath": "api/TaxCertificate/generate-pdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "TaxCalculatorAPI.Services.Models.TaxCertificateData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxCalculatorAPI.Controllers.TaxCertificateController",
+    "Method": "SendEmail",
+    "RelativePath": "api/TaxCertificate/send-email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TaxCalculatorAPI.Controllers.TaxCertificateController\u002BEmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

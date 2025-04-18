@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "1CUda5jdYERg47kOVqtzz0Hie6o6FFCgSdTKL+DNceE=",
+  "Source": "TaxCalculatorAPI",
+  "BasePath": "_content/TaxCalculatorAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
